@@ -5,7 +5,7 @@ int main(){
   char c;
   char things[128],*s ; 
   printf("Enter: ");
-   gets(things);
+   fgets(things,128,stdin);
   printf("Char: ");
    scanf(" %c",&c);
   s = things; 
